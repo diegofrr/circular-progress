@@ -29,7 +29,7 @@ export default function CircularProgressDemo() {
 
   return (
     <div className="h-screen w-full mx-auto flex items-center flex-col">
-      <header className="flex fixed z-50 top-0 justify-between w-full border-[1px] border-border h-16 px-8 md:px-16 items-center">
+      <header className="flex fixed z-50 top-0 justify-between w-full border-b-[1px] border-border h-16 px-8 md:px-16 items-center">
         <span className="font-semibold">Circular Progress Variants</span>
         <Button
           size="icon"
