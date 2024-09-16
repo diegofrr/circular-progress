@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { CircularProgress } from "./components/ui/circular-progress";
+import { CircularProgress } from "../components/ui/circular-progress";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { GithubIcon, MoonIcon, SunIcon } from "lucide-react";

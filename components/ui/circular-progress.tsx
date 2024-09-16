@@ -63,7 +63,11 @@ export const CircularProgress = ({
         cy={sizeValue / 2}
         r={radius}
         strokeWidth={actualStrokeWidth}
-        className="text-muted-foreground opacity-20"
+        className={`${circularProgressVariants({
+          variant,
+          size,
+          className,
+        })} opacity-20`}
       />
       <circle
         fill="none"
